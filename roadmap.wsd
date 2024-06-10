@@ -1,8 +1,16 @@
 @startuml
+actor Pelanggan
+actor Petugas
 
-actor User
+Pelanggan --> (Mendaftar)
+Pelanggan --> (Menyimpan Barang)
+Pelanggan --> (Mengambil Barang)
+
+Petugas --> (Mendaftar)
+Petugas --> (Menyimpan Barang)
+Petugas --> (Mengambil Barang)
+
+(Mendaftar) ..> (Menyimpan Barang) : include
+(Menyimpan Barang) ..> (Mengambil Barang) : include
 
 @enduml
-
-
-
