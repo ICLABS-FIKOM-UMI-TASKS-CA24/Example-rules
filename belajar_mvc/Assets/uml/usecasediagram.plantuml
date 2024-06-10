@@ -1,0 +1,27 @@
+@startuml usecasediagram
+rectangle "Sistem Asistensi" {
+    ' Deklarasi aktor '
+    actor Asisten
+    actor Mahasiswa
+    actor Dosen
+
+    ' Pewarisan '
+    
+
+    ' Use Case '
+    Mahasiswa --> (Mengerjakan Soal) : soal yang diberikan asisten/dosen
+    Asisten --> (Memberikan Soal)
+    Asisten --> (Mengevaluasi Pekerjaan)
+    Asisten --> (Membuat Soal)
+    Dosen --> (Membuat Soal)
+    (Memberikan Soal) --> Mahasiswa
+
+    ' Evaluasi '
+    (Mengerjakan Soal) --> (Hasil) : di evaluasi oleh dosen dan asisten
+    (Hasil) --> (Asisten)
+    (Mengevaluasi Pekerjaan) --> (Hasil Evaluasi)
+    (Hasil Evaluasi) --> (Remedial)
+    (Hasil Evaluasi) --> (Lulus)
+    (Remedial) --> (Mahasiswa) : Remedial
+}
+@enduml

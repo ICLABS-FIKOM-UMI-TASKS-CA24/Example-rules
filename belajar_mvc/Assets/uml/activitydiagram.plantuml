@@ -1,0 +1,21 @@
+@startuml
+|Mahasiswa|
+start
+:Terima Soal;
+:Mengerjakan Soal;
+:Mengumpulkan Soal;
+|Asisten|
+:Evaluasi Pekerjaan;
+
+|Mahasiswa|
+if (Lulus?) then (yes)
+  :Lulus;
+  stop
+else (no)
+  :Remedial;
+  :Mengerjakan Ulang Soal;
+  :Mengumpulkan Ulang Soal;
+  :Evaluasi Ulang;
+endif
+stop
+@enduml

@@ -1,0 +1,41 @@
+@startuml
+|Asisten|
+start
+if(soal?) then (dari asisten);
+:Asisten Membuat Soal;
+:Asisten Memberikan Soal;
+else (dari dosen)
+:Terima Soal dari Dosen;
+endif
+
+|Dosen|
+if (Soal dari Asisten?) then (ya)
+  :Review dan Setujui Soal;
+endif
+
+|Mahasiswa|
+:Terima Soal;
+:Mengerjakan Soal;
+:Mengumpulkan Soal;
+
+|Asisten|
+:Evaluasi Pekerjaan;
+if (Lulus?) then (ya)
+  :Lulus;
+  stop
+else (tidak)
+  :Remedial;
+  :Membuat Ulang Soal;
+  :Evaluasi Ulang;
+endif
+
+|Dosen|
+:Review Hasil Evaluasi;
+if (Lulus?) then (ya)
+  :Memberikan nilai;
+  stop
+else (tidak)
+  :Instruksi Remedial Tambahan;
+endif
+stop
+@enduml

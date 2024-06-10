@@ -1,0 +1,8 @@
+@startuml
+[*] --> Mengumpulkan Soal
+Mengumpulkan Soal --> Evaluasi : Soal Dikumpulkan
+Evaluasi --> Lulus : Evaluasi Positif
+Evaluasi --> Remedial : Evaluasi Negatif
+Remedial --> Mengumpulkan Soal : Mengerjakan Ulang Soal
+Lulus --> [*]
+@enduml
