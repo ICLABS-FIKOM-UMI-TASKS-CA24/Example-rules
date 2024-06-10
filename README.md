@@ -1,8 +1,8 @@
 ## PRA TUBES CALON ASISTEN (CA) 2024 ICLABS FIKOM UMI (WEB)
 
-## NAMA APLIKASI :smiling_imp:
+## tiket-bus-online :smiling_imp:
 > [!NOTE]
-> FULAN - 13X202XXXXX
+> Wahyu Kadri Rahmat Suat - 13020220081
 
 
 > [!IMPORTANT]
