@@ -1,7 +1,7 @@
 ## PRA TUBES CALON ASISTEN (CA) 2024 ICLABS FIKOM UMI (WEB)
 
-## NAMA APLIKASI :smiling_imp:
-> [Informasi-Jadwal-Praktikum]
+## INFORMASI JADWAL PRAKTIKUM :smiling_imp:
+> [!NOTE]
 > MUHAMMAD ALIF MAULANA.R - 13020220223
 
 
