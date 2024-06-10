@@ -1,8 +1,8 @@
 ## PRA TUBES CALON ASISTEN (CA) 2024 ICLABS FIKOM UMI (WEB)
 
-## NAMA APLIKASI :smiling_imp:
+## NAMA APLIKASI :Sistem-informasi-peminjaman-buku-di-perpustakaan:
 > [!NOTE]
-> FULAN - 13X202XXXXX
+> Julisa - 13020220301
 
 
 > [!IMPORTANT]

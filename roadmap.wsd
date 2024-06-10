@@ -1,8 +1,32 @@
 @startuml
+left to right direction
+actor "Admin" as admin
+actor "Anggota" as anggota
 
-actor User
+rectangle Perpustakaan {
+  usecase "Dashboard" as UC1
+  usecase "Home" as UC2
+  usecase "Kelola Buku" as UC3
+  usecase "Kelola Anggota" as UC4
+  usecase "Peminjaman Buku" as UC5
+  usecase "Pengembalian Buku" as UC6
+  usecase "Lihat Riwayat Peminjaman" as UC7
+  usecase "Cari Buku" as UC8
+}
+
+admin --> UC1 : Melihat Statistik Perpustakaan
+admin --> UC2 : Mengakses Beranda
+admin --> UC3 : Mengelola Data Buku
+admin --> UC4 : Mengelola Data Anggota
+admin --> UC5 : Memproses Peminjaman
+admin --> UC6 : Memproses Pengembalian
+admin --> UC7 : Melihat Riwayat Peminjaman Anggota
+
+anggota --> UC1 : Melihat Riwayat Peminjaman dan Statistik Pribadi
+anggota --> UC2 : Mengakses Beranda
+anggota --> UC5 : Meminjam Buku
+anggota --> UC6 : Mengembalikan Buku
+anggota --> UC7 : Melihat Riwayat Peminjaman Pribadi
+anggota --> UC8 : Mencari Buku
 
 @enduml
-
-
-
