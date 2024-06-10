@@ -1,7 +1,16 @@
 @startuml
-
-actor User
-
+left to right direction
+actor "Admin" as fc
+rectangle Perpustakaan {
+  usecase "Dashboard" as UC1
+  usecase "Home" as UC2
+  usecase "Pesanan" as UC3
+  usecase "Beli Tiket" as UC4
+}
+fc --> UC1
+fc --> UC2
+fc --> UC3
+fc --> C4
 @enduml
 
 
