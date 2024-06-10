@@ -3,7 +3,7 @@
 ## WEBSITE-SEKOLAH:smiling_imp:
 
 > [!NOTE]
-> FARID WAJDI MUFTI 13020220265
+> FARID WAJDI MUFTI-13020220265
 
 > [!IMPORTANT]
 > Key information users need to know to achieve their goal.
