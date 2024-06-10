@@ -1,0 +1,29 @@
+@startuml
+left to right direction
+actor Admin
+actor user
+
+rectangle Tiket-Bis-Online {
+
+Admin --> (Logout)
+Admin --> (Login)
+Admin --> (Dashboard)
+Admin --> (Pesanan)
+Admin --> (Beli Tiket)
+(Login) .. (Logout)
+(Login) .. (Dashboard)
+(Login) .. (Pesanan)
+(Login) .. (Beli Tiket)
+
+user <-- (login)
+(Dashboard) <--- user
+(Pesanan) <--- user
+(Beli Tiket) <--- user
+(Logout) <--- user
+
+(login) .. (Dashboard)
+(login) .. (Pesanan)
+(login) .. (Beli Tiket)
+(login) .. (Logout)
+}
+@enduml
