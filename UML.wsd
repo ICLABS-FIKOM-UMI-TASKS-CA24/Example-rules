@@ -1,0 +1,28 @@
+@startuml
+left to right direction
+actor "Admin" as fc
+package user{
+    actor User as us
+    actor "Super User" as su
+}
+rectangle Invetory_ICLABS {
+  usecase "Login" as UC1  
+  usecase "Dashboard" as UC2
+  usecase "Home" as UC3
+  usecase "Data Barang" as UC4
+  usecase "Logout" as UC5
+}
+us --> UC1
+su --> UC1
+fc --> UC1
+fc --> UC2
+fc --> UC3
+fc --> UC4
+fc --> UC5
+su --> UC5
+us --> UC5
+
+
+@enduml
+
+
