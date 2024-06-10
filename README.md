@@ -1,8 +1,8 @@
 ## PRA TUBES CALON ASISTEN (CA) 2024 ICLABS FIKOM UMI (WEB)
 
-## NAMA APLIKASI :smiling_imp:
+## Asistensi-application:smiling_imp:
 > [!NOTE]
-> FULAN - 13X202XXXXX
+> Ahmad Mufli Ramadhan - 13020220227
 
 
 > [!IMPORTANT]
