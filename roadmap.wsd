@@ -1,8 +1,15 @@
 @startuml
+left to right direction
+actor "admin" as fc
 
-actor User
-
+rectangle Inventori_Pembibitan_Kelapa_Sawit {
+  usecase "Dashboard" as UC1
+  usecase "Home" as UC2
+  usecase "Data Bibit" as UC3
+  usecase "Pesanan" as UC4
+}
+fc --> UC1
+fc --> UC2
+fc --> UC3
+fc --> UC4
 @enduml
-
-
-
